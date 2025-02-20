@@ -1,3 +1,4 @@
+<?php
 error_reporting(0);
 set_time_limit(0);
 
@@ -24,3 +25,4 @@ if (isset($_GET['do']) && $_GET['do'] == '1') {
     }
     exit;
 }
+?>
